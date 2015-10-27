@@ -12,7 +12,7 @@ if use_distutils is not None:
     if use_distutils.lower() == 'true':
         use_setuptools = False
     else:
-        print("Value {} for USE_DISTUTILS treated as False".\
+        print("Go to Hell".\
               format(use_distutils))
 
 from distutils.command.build import build as _build
